@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 OpenPLi - MeteoViewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 13:26+0100\n"
-"PO-Revision-Date: 2024-11-15 15:52+0100\n"
+"POT-Creation-Date: 2024-11-18 19:09+0100\n"
+"PO-Revision-Date: 2024-11-19 08:59+0100\n"
 "Last-Translator: Mr.Servo <mrservo via GitHub.com>\n"
 "Language-Team: cpteam <github.com/chipcard>\n"
 "Language: hu\n"
@@ -46,8 +46,9 @@ msgstr ""
 "Meghatározza a diavetítésben megjelenített kiegészítő információk "
 "megjelenítési típusát és terjedelmét."
 
-msgid "Defines the time delay for weatheronline."
-msgstr "Meghatározza a weatheronline időbeli késleltetését."
+msgid "Defines the time delay for the latest pictures of weatheronline."
+msgstr ""
+"Meghatározza az időbeli késleltetést a weatheronline legfrissebb képeihez."
 
 msgid "Defines which view is to be called up after downloading the images."
 msgstr ""
@@ -80,11 +81,11 @@ msgstr "Megjelenítés:"
 msgid "Download"
 msgstr "Letöltés"
 
-msgid "Download info on plugin's start:"
-msgstr "Letöltési információk a plugin indulásakor:"
+msgid "Download info on plugin start:"
+msgstr "Letöltési információk a plugin indításakor:"
 
-msgid "Download pictures, please!"
-msgstr "Képek letöltése, kérem!"
+msgid "Download pictures!"
+msgstr "Képek letöltése!"
 
 msgid "Download:"
 msgstr "Letöltés:"
@@ -101,14 +102,8 @@ msgstr "Keretek info:"
 msgid "Frequency of downloading."
 msgstr "A letöltés gyakorisága."
 
-msgid "LT"
-msgstr "LT"
-
 msgid "Local time in info:"
 msgstr "Helyi idő az információban:"
-
-msgid "MeteoViewer"
-msgstr "MeteoViewer"
 
 msgid "No files found!"
 msgstr "Nincsenek fájlok!"
@@ -118,9 +113,6 @@ msgstr "Kilépéskor törli a fájlokat:"
 
 msgid "Options"
 msgstr "Opciók"
-
-msgid "Parallels and meridians:"
-msgstr "Párhuzamosok és meridiánok:"
 
 msgid "Prepare..."
 msgstr "Készít..."
@@ -140,6 +132,9 @@ msgstr "Válassza ki a kívánt időjárás típusát:"
 msgid "Show longitude and latitude in the slideshow."
 msgstr "A hosszúsági és szélességi fokok megjelenítése a diavetítésben."
 
+msgid "Show longitude and latitude:"
+msgstr "Hosszúság és szélesség megjelenítése:"
+
 msgid ""
 "Show only the currently loaded images or all previously available images."
 msgstr ""
@@ -152,7 +147,7 @@ msgstr "A helyi idő (dobozidő) megjelenítése az információban."
 msgid "Slideshow"
 msgstr "Diavetítés"
 
-msgid "Slideshow begins from:"
+msgid "Slideshow starts from:"
 msgstr "A diavetítés kezdődik:"
 
 msgid "Slideshow's step:"
@@ -171,8 +166,8 @@ msgstr "A diavetítést az elejétől vagy az utolsó pozíciótól indíthatja.
 msgid "Stop Show"
 msgstr "Leállítás"
 
-msgid "Stop slideshow, please!"
-msgstr "Állítsa le a diavetítést, kérem!"
+msgid "Stop slideshow!"
+msgstr "Diavetítés leállítása!"
 
 msgid "The downloaded images are stored in this directory."
 msgstr "A letöltött képek ebben a könyvtárban kerülnek tárolásra."
@@ -180,11 +175,8 @@ msgstr "A letöltött képek ebben a könyvtárban kerülnek tárolásra."
 msgid "Type of meteo info on start:"
 msgstr "A meteoinformáció típusa induláskor:"
 
-msgid "UTC"
-msgstr "UTC"
-
-msgid "actual position"
-msgstr "tényleges pozíció"
+msgid "Viewer of meteo pictures"
+msgstr "Voir les images météorologiques"
 
 msgid "all frames"
 msgstr "minden képkocka"
@@ -228,6 +220,9 @@ msgstr "infó"
 msgid "info and progress bar"
 msgstr "info és progress bar"
 
+msgid "last position"
+msgstr "utolsó pozíció"
+
 msgid "menu"
 msgstr "menü"
 
@@ -258,6 +253,9 @@ msgstr "diavetítés lejátszása/leállítása"
 msgid "progress bar"
 msgstr "előrehaladási sáv"
 
+msgid "refresh last frame"
+msgstr "utolsó képkocka frissítése"
+
 msgid "refresh..."
 msgstr "frissítés..."
 
@@ -275,19 +273,3 @@ msgstr "váltson az előző meteorológiai típusra"
 
 msgid "synaptic maps"
 msgstr "szinaptikus térképek"
-
-msgid "Viewer of meteo pictures"
-msgstr "Voir les images météorologiques"
-
-#, python-format
-#~ msgid "!!! '%s' as 'All' cannot be used with '/tmp/' !!!"
-#~ msgstr "!!! '%s' az 'Összes' nem használható a '/tmp/' !!!"
-
-#~ msgid "Location for MeteoViewer"
-#~ msgstr "Hely megadása MeteoViewernek"
-
-#~ msgid "MeteoViewer Setup"
-#~ msgstr "MeteoViewer telepítése"
-
-#~ msgid "Save"
-#~ msgstr "Mentés"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 13:26+0100\n"
-"PO-Revision-Date: 2024-11-15 17:28+0100\n"
+"POT-Creation-Date: 2024-11-18 19:09+0100\n"
+"PO-Revision-Date: 2024-11-19 08:56+0100\n"
 "Last-Translator: Mr.Servo <mrservo via GitHub.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -42,8 +42,9 @@ msgstr ""
 "Legt die Anzeigeart und den Umfang der Zusatzinformationen in der Diashow "
 "fest."
 
-msgid "Defines the time delay for weatheronline."
-msgstr "Legt die Zeitverzögerung für weatheronline fest."
+msgid "Defines the time delay for the latest pictures of weatheronline."
+msgstr ""
+"Legt die Zeitverzögerung für die neuesten Bilder von weatheronline fest."
 
 msgid "Defines which view is to be called up after downloading the images."
 msgstr ""
@@ -77,11 +78,11 @@ msgstr "Anzeige:"
 msgid "Download"
 msgstr "Herunterladen"
 
-msgid "Download info on plugin's start:"
-msgstr "Download-Informationen beim Plugin Start:"
+msgid "Download info on plugin start:"
+msgstr "Lade Informationen beim Plugin Start:"
 
-msgid "Download pictures, please!"
-msgstr "Bitte Bilder herunterladen!"
+msgid "Download pictures!"
+msgstr "Bilder herunterladen!"
 
 msgid "Download:"
 msgstr "Herunterladen:"
@@ -98,14 +99,8 @@ msgstr "Rahmen Info:"
 msgid "Frequency of downloading."
 msgstr "Häufigkeit des Herunterladens."
 
-msgid "LT"
-msgstr "LT"
-
 msgid "Local time in info:"
 msgstr "Ortszeit in Info:"
-
-msgid "MeteoViewer"
-msgstr "MeteoViewer"
 
 msgid "No files found!"
 msgstr "Keine Dateien gefunden!"
@@ -115,9 +110,6 @@ msgstr "Beim Beenden werden die Dateien gelöscht:"
 
 msgid "Options"
 msgstr "Optionen"
-
-msgid "Parallels and meridians:"
-msgstr "Parallelen und Meridiane:"
 
 msgid "Prepare..."
 msgstr "Vorbereiten..."
@@ -137,6 +129,9 @@ msgstr "Wählen Sie den gewünschten Meteo-Typ:"
 msgid "Show longitude and latitude in the slideshow."
 msgstr "Längen- und Breitengrad in der Diashow anzeigen."
 
+msgid "Show longitude and latitude:"
+msgstr "Längen- und Breitengrad in der Diashow anzeigen:"
+
 msgid ""
 "Show only the currently loaded images or all previously available images."
 msgstr ""
@@ -149,8 +144,8 @@ msgstr "Zeigen Sie die Ortszeit (Boxzeit) in den Informationen an."
 msgid "Slideshow"
 msgstr "Diashow"
 
-msgid "Slideshow begins from:"
-msgstr "Diashow beginnt von:"
+msgid "Slideshow starts from:"
+msgstr "Diashow beginnt ab:"
 
 msgid "Slideshow's step:"
 msgstr "Einzelschritte der Diashow:"
@@ -168,8 +163,8 @@ msgstr "Starten Sie die Diashow am Anfang oder an der letzten Position."
 msgid "Stop Show"
 msgstr "Show beenden"
 
-msgid "Stop slideshow, please!"
-msgstr "Bitte Diashow anhalten!"
+msgid "Stop slideshow!"
+msgstr "Diashow anhalten!"
 
 msgid "The downloaded images are stored in this directory."
 msgstr "Die heruntergeladenen Bilder werden in diesem Verzeichnis gespeichert."
@@ -177,11 +172,8 @@ msgstr "Die heruntergeladenen Bilder werden in diesem Verzeichnis gespeichert."
 msgid "Type of meteo info on start:"
 msgstr "Art der Meteo-Information beim Start:"
 
-msgid "UTC"
-msgstr "UTC"
-
-msgid "actual position"
-msgstr "tatsächliche Position"
+msgid "Viewer of meteo pictures"
+msgstr "Betrachte Meteo-Bilder"
 
 msgid "all frames"
 msgstr "alle Rahmen"
@@ -190,7 +182,7 @@ msgid "all types"
 msgstr "alle Typen"
 
 msgid "begin"
-msgstr "beginnen"
+msgstr "Anfang"
 
 msgid "current type"
 msgstr "aktueller Typ"
@@ -225,6 +217,9 @@ msgstr "Infos"
 msgid "info and progress bar"
 msgstr "Info- und Fortschrittsbalken"
 
+msgid "last position"
+msgstr "letzte Position"
+
 msgid "menu"
 msgstr "Menü"
 
@@ -255,6 +250,9 @@ msgstr "Diashow abspielen/anhalten"
 msgid "progress bar"
 msgstr "Fortschrittsbalken"
 
+msgid "refresh last frame"
+msgstr "letztes Bild aktualisieren"
+
 msgid "refresh..."
 msgstr "aktualisieren..."
 
@@ -272,6 +270,3 @@ msgstr "Wechsel zum vorherigen Meteo-Typ"
 
 msgid "synaptic maps"
 msgstr "synaptische Karten"
-
-msgid "Viewer of meteo pictures"
-msgstr "Betrachte Meteo-Bilder"

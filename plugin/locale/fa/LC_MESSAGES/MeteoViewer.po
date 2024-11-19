@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: meteo viewer Persian Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 13:26+0100\n"
-"PO-Revision-Date: 2024-11-15 18:45+0100\n"
+"POT-Creation-Date: 2024-11-18 19:09+0100\n"
+"PO-Revision-Date: 2024-11-19 08:57+0100\n"
 "Last-Translator: Mr.Servo <mrservo via GitHub.com>\n"
 "Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
 "Language: fa_IR\n"
@@ -43,7 +43,7 @@ msgid ""
 "slideshow."
 msgstr ""
 
-msgid "Defines the time delay for weatheronline."
+msgid "Defines the time delay for the latest pictures of weatheronline."
 msgstr ""
 
 msgid "Defines which view is to be called up after downloading the images."
@@ -87,11 +87,13 @@ msgstr "بارگذاری کردن"
 #
 #, fuzzy
 #| msgid "Download info on plugin's start"
-msgid "Download info on plugin's start:"
+msgid "Download info on plugin start:"
 msgstr "بارگذاری اطلاعات بروی پلاگین"
 
 #
-msgid "Download pictures, please!"
+#, fuzzy
+#| msgid "Download pictures, please!"
+msgid "Download pictures!"
 msgstr "بارگذاری تصاویر و لطفا !"
 
 #
@@ -121,18 +123,10 @@ msgid "Frequency of downloading."
 msgstr "دایرکتوری برای بارگذاری شده ها"
 
 #
-msgid "LT"
-msgstr ""
-
-#
 #, fuzzy
 #| msgid "Local time in info"
 msgid "Local time in info:"
 msgstr "نمایش زمان محلی در نوار اطلاعات"
-
-#
-msgid "MeteoViewer"
-msgstr "Meteo نمایشگر"
 
 #
 msgid "No files found!"
@@ -147,9 +141,6 @@ msgstr "خارج شدن از فایل های حذف شده"
 #
 msgid "Options"
 msgstr "گزینه ها"
-
-msgid "Parallels and meridians:"
-msgstr ""
 
 #
 msgid "Prepare..."
@@ -175,6 +166,9 @@ msgstr "meteo انتخاب نوع انتخاب شده"
 msgid "Show longitude and latitude in the slideshow."
 msgstr ""
 
+msgid "Show longitude and latitude:"
+msgstr ""
+
 msgid ""
 "Show only the currently loaded images or all previously available images."
 msgstr ""
@@ -189,7 +183,7 @@ msgstr "نمایش اسلایدها"
 #
 #, fuzzy
 #| msgid "Slideshow begins from"
-msgid "Slideshow begins from:"
+msgid "Slideshow starts from:"
 msgstr "شروع نمایش بصورت اسلایدوار از ...."
 
 #
@@ -217,7 +211,9 @@ msgid "Stop Show"
 msgstr "متوقف سازی نمایش "
 
 #
-msgid "Stop slideshow, please!"
+#, fuzzy
+#| msgid "Stop slideshow, please!"
+msgid "Stop slideshow!"
 msgstr "متوقف سازی نمایش اسلایدها و لطفا !"
 
 msgid "The downloaded images are stored in this directory."
@@ -230,12 +226,10 @@ msgid "Type of meteo info on start:"
 msgstr "در شروع کار meteo نوع اطلاعات"
 
 #
-msgid "UTC"
-msgstr ""
-
-#
-msgid "actual position"
-msgstr "جایگاه واقعی"
+#, fuzzy
+#| msgid "viewer of meteo pictures"
+msgid "Viewer of meteo pictures"
+msgstr " meteo نمایشگر تصاویر"
 
 #
 msgid "all frames"
@@ -294,6 +288,12 @@ msgid "info and progress bar"
 msgstr "اطلاعات و نوار پیشرفت کار "
 
 #
+#, fuzzy
+#| msgid "actual position"
+msgid "last position"
+msgstr "جایگاه واقعی"
+
+#
 msgid "menu"
 msgstr "منو"
 
@@ -334,6 +334,12 @@ msgid "progress bar"
 msgstr "نوار پیشرفت کار"
 
 #
+#, fuzzy
+#| msgid "go to last frame"
+msgid "refresh last frame"
+msgstr "رفتن به آخرین فریم"
+
+#
 msgid "refresh..."
 msgstr "بازآوری کردن ..."
 
@@ -356,21 +362,3 @@ msgstr "meteo  سوئیچ کردن به نوع قبلی"
 #
 msgid "synaptic maps"
 msgstr ""
-
-#
-#, fuzzy
-#| msgid "viewer of meteo pictures"
-msgid "Viewer of meteo pictures"
-msgstr " meteo نمایشگر تصاویر"
-
-#
-#~ msgid "Location for MeteoViewer"
-#~ msgstr "Meteo مکانی برای نمایشگر"
-
-#
-#~ msgid "MeteoViewer Setup"
-#~ msgstr "Meteo راه انداری نمایشگر"
-
-#
-#~ msgid "Save"
-#~ msgstr "ذخیره سازی کردن "

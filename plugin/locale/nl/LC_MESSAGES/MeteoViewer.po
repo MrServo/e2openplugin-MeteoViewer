@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma 2 MeteoViewer Plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 13:26+0100\n"
-"PO-Revision-Date: 2024-11-15 16:08+0100\n"
+"POT-Creation-Date: 2024-11-18 19:09+0100\n"
+"PO-Revision-Date: 2024-11-19 09:06+0100\n"
 "Last-Translator: Mr.Servo <mrservo via GitHub.com>\n"
 "Language-Team: ims\n"
-"Language: cs_CZ\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,8 +52,8 @@ msgstr ""
 "Definieert het weergavetype en het bereik van de extra informatie in de "
 "diavoorstelling."
 
-msgid "Defines the time delay for weatheronline."
-msgstr "Bepaalt de tijdsvertraging voor weatheronline."
+msgid "Defines the time delay for the latest pictures of weatheronline."
+msgstr "Bepaalt de tijdsvertraging voor de laatste beelden van weeronline."
 
 msgid "Defines which view is to be called up after downloading the images."
 msgstr ""
@@ -94,12 +94,12 @@ msgid "Download"
 msgstr "Download"
 
 #
-msgid "Download info on plugin's start:"
-msgstr "Downloadinfo bij de start van de plugin:"
+msgid "Download info on plugin start:"
+msgstr "Download info op plugin start:"
 
 #
-msgid "Download pictures, please!"
-msgstr "Download aub afbeeldingen"
+msgid "Download pictures!"
+msgstr "Foto's downloaden!"
 
 #
 msgid "Download:"
@@ -122,16 +122,8 @@ msgid "Frequency of downloading."
 msgstr "Frequentie van downloaden."
 
 #
-msgid "LT"
-msgstr "Lokale tijd"
-
-#
 msgid "Local time in info:"
 msgstr "Plaatselijke tijd in info:"
-
-#
-msgid "MeteoViewer"
-msgstr "MeteoViewer"
 
 #
 msgid "No files found!"
@@ -146,12 +138,8 @@ msgid "Options"
 msgstr "Opties"
 
 #
-msgid "Parallels and meridians:"
-msgstr "Parallellen en meridianen:"
-
-#
 msgid "Prepare..."
-msgstr "Voorbereiden"
+msgstr "Voorbereiden..."
 
 msgid "Refresh rate for reloading the images."
 msgstr "Verversingssnelheid voor het herladen van de afbeeldingen."
@@ -162,14 +150,17 @@ msgstr "Diavoorstelling vernieuwen:"
 
 #
 msgid "Select destination:"
-msgstr "Kies bestemming"
+msgstr "Kies bestemming:"
 
 #
 msgid "Select wanted meteo type:"
-msgstr "Selecteer gewenste meteo-informatie"
+msgstr "Selecteer gewenste meteo-informatie:"
 
 msgid "Show longitude and latitude in the slideshow."
 msgstr "Toon lengtegraad en breedtegraad in de diavoorstelling."
+
+msgid "Show longitude and latitude:"
+msgstr "Toon lengtegraad en breedtegraad:"
 
 msgid ""
 "Show only the currently loaded images or all previously available images."
@@ -185,7 +176,7 @@ msgid "Slideshow"
 msgstr "Diavoorstelling"
 
 #
-msgid "Slideshow begins from:"
+msgid "Slideshow starts from:"
 msgstr "Diashow begint vanaf:"
 
 #
@@ -210,8 +201,8 @@ msgid "Stop Show"
 msgstr "Stop voorstelling"
 
 #
-msgid "Stop slideshow, please!"
-msgstr "Stop aub de diavoorstelling"
+msgid "Stop slideshow!"
+msgstr "Stop diavoorstelling!"
 
 msgid "The downloaded images are stored in this directory."
 msgstr "De gedownloade afbeeldingen worden in deze map opgeslagen."
@@ -221,12 +212,8 @@ msgid "Type of meteo info on start:"
 msgstr "Type meteo-info bij start:"
 
 #
-msgid "UTC"
-msgstr "GMT"
-
-#
-msgid "actual position"
-msgstr "aktuele positie"
+msgid "Viewer of meteo pictures"
+msgstr "Kijker van meteofoto's"
 
 #
 msgid "all frames"
@@ -285,6 +272,10 @@ msgid "info and progress bar"
 msgstr "info en voortgangsbalk"
 
 #
+msgid "last position"
+msgstr "laatste positie"
+
+#
 msgid "menu"
 msgstr "menu"
 
@@ -324,6 +315,10 @@ msgid "progress bar"
 msgstr "voortgangsbalk"
 
 #
+msgid "refresh last frame"
+msgstr "laatste frame verversen"
+
+#
 msgid "refresh..."
 msgstr "ververs..."
 
@@ -346,19 +341,3 @@ msgstr "naar het vorige meteo-type"
 #
 msgid "synaptic maps"
 msgstr "synoptische kaarten"
-
-#
-msgid "Viewer of meteo pictures"
-msgstr "Kijker van meteofoto's"
-
-#
-#~ msgid "Location for MeteoViewer"
-#~ msgstr "Lokatie voor MeteoViewer"
-
-#
-#~ msgid "MeteoViewer Setup"
-#~ msgstr "MeteoViewer Instellingen"
-
-#
-#~ msgid "Save"
-#~ msgstr "Opslaan"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma 2 MeteoViewer Plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 13:26+0100\n"
-"PO-Revision-Date: 2024-11-15 15:50+0100\n"
+"POT-Creation-Date: 2024-11-18 19:09+0100\n"
+"PO-Revision-Date: 2024-11-19 08:55+0100\n"
 "Last-Translator: Mr.Servo <mrservo via GitHub.com>\n"
 "Language-Team: ims\n"
 "Language: cs_CZ\n"
@@ -50,8 +50,8 @@ msgid ""
 "slideshow."
 msgstr "Definuje typ a rozsah zobrazení doplňkových informací v prezentaci."
 
-msgid "Defines the time delay for weatheronline."
-msgstr "Definuje časové zpoždění pro weatheronline."
+msgid "Defines the time delay for the latest pictures of weatheronline."
+msgstr "Definuje časové zpoždění nejnovějších obrázků z weatheronline."
 
 msgid "Defines which view is to be called up after downloading the images."
 msgstr "Určuje, které zobrazení se má vyvolat po stažení obrázků."
@@ -86,12 +86,12 @@ msgid "Download"
 msgstr "Stáhnout"
 
 #
-msgid "Download info on plugin's start:"
-msgstr "Download info on plugin's start:"
+msgid "Download info on plugin start:"
+msgstr "Informace ke stažení na začátku pluginu:"
 
 #
-msgid "Download pictures, please!"
-msgstr "Stahněte soubory, prosím!"
+msgid "Download pictures!"
+msgstr "Stáhněte si obrázky!"
 
 #
 msgid "Download:"
@@ -114,16 +114,8 @@ msgid "Frequency of downloading."
 msgstr "Frekvence stahování."
 
 #
-msgid "LT"
-msgstr "(místní čas)"
-
-#
 msgid "Local time in info:"
 msgstr "Místní čas v informacích:"
-
-#
-msgid "MeteoViewer"
-msgstr "MeteoViewer"
 
 #
 msgid "No files found!"
@@ -136,10 +128,6 @@ msgstr "Při ukončení odstraňte soubory:"
 #
 msgid "Options"
 msgstr "Možnosti"
-
-#
-msgid "Parallels and meridians:"
-msgstr "Rovnoběžky a poledníky:"
 
 #
 msgid "Prepare..."
@@ -163,6 +151,9 @@ msgstr "Zvolte požadované meteo informace:"
 msgid "Show longitude and latitude in the slideshow."
 msgstr "Zobrazení zeměpisné délky a šířky v prezentaci."
 
+msgid "Show longitude and latitude:"
+msgstr "Zobrazte zeměpisnou délku a šířku:"
+
 msgid ""
 "Show only the currently loaded images or all previously available images."
 msgstr ""
@@ -176,7 +167,7 @@ msgid "Slideshow"
 msgstr "Prezentace"
 
 #
-msgid "Slideshow begins from:"
+msgid "Slideshow starts from:"
 msgstr "Slideshow začíná od:"
 
 #
@@ -199,8 +190,8 @@ msgid "Stop Show"
 msgstr "Zastavit"
 
 #
-msgid "Stop slideshow, please!"
-msgstr "Zastavte prezentaci, prosím!"
+msgid "Stop slideshow!"
+msgstr "Zastavit prezentaci!"
 
 msgid "The downloaded images are stored in this directory."
 msgstr "Stažené obrázky jsou uloženy v tomto adresáři."
@@ -209,13 +200,8 @@ msgstr "Stažené obrázky jsou uloženy v tomto adresáři."
 msgid "Type of meteo info on start:"
 msgstr "Typ meteo informací na začátku:"
 
-#
-msgid "UTC"
-msgstr "UTC"
-
-#
-msgid "actual position"
-msgstr "aktuální pozice"
+msgid "Viewer of meteo pictures"
+msgstr "Prohlížeč meteo obrázků"
 
 #
 msgid "all frames"
@@ -274,6 +260,10 @@ msgid "info and progress bar"
 msgstr "info a průběh prezentace"
 
 #
+msgid "last position"
+msgstr "poslední pozice"
+
+#
 msgid "menu"
 msgstr "výběr meteo informací"
 
@@ -313,6 +303,10 @@ msgid "progress bar"
 msgstr "průběh prezentace"
 
 #
+msgid "refresh last frame"
+msgstr "obnovení posledního snímku"
+
+#
 msgid "refresh..."
 msgstr "refresh..."
 
@@ -335,6 +329,3 @@ msgstr "přepnout na předchozí meteo typ"
 #
 msgid "synaptic maps"
 msgstr "synaptické mapy"
-
-msgid "Viewer of meteo pictures"
-msgstr "Prohlížeč meteo obrázků"

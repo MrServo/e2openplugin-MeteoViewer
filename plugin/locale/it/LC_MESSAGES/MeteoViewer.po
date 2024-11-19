@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 OpenPLi - MeteoViewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 13:26+0100\n"
-"PO-Revision-Date: 2024-11-15 16:07+0100\n"
+"POT-Creation-Date: 2024-11-18 19:09+0100\n"
+"PO-Revision-Date: 2024-11-19 09:04+0100\n"
 "Last-Translator: Mr.Servo <mrservo via GitHub.com>\n"
 "Language-Team: www.linsat.net <spaeleus@croci.org>\n"
 "Language: it\n"
@@ -48,8 +48,8 @@ msgstr ""
 "Definisce il tipo di visualizzazione e l'ambito delle informazioni "
 "aggiuntive nella presentazione."
 
-msgid "Defines the time delay for weatheronline."
-msgstr "Definisce il ritardo per il meteoonline."
+msgid "Defines the time delay for the latest pictures of weatheronline."
+msgstr "Definisce il ritardo per le ultime immagini di weatheronline."
 
 msgid "Defines which view is to be called up after downloading the images."
 msgstr ""
@@ -82,11 +82,11 @@ msgstr "Display:"
 msgid "Download"
 msgstr "Download"
 
-msgid "Download info on plugin's start:"
+msgid "Download info on plugin start:"
 msgstr "Informazioni sul download all'avvio del plugin:"
 
-msgid "Download pictures, please!"
-msgstr "Scaricare le immagini."
+msgid "Download pictures!"
+msgstr "Scarica le immagini!"
 
 msgid "Download:"
 msgstr "Download:"
@@ -103,26 +103,17 @@ msgstr "Informazioni sulle cornici:"
 msgid "Frequency of downloading."
 msgstr "Frequenza di download."
 
-msgid "LT"
-msgstr "LT"
-
 msgid "Local time in info:"
 msgstr "Ora locale in info:"
 
-msgid "MeteoViewer"
-msgstr "MeteoViewer"
-
 msgid "No files found!"
-msgstr "Nessun file trovato."
+msgstr "Nessun file trovato!"
 
 msgid "On exit delete files:"
 msgstr "All'uscita cancella i file:"
 
 msgid "Options"
 msgstr "Impostazioni"
-
-msgid "Parallels and meridians:"
-msgstr "Paralleli e meridiani:"
 
 msgid "Prepare..."
 msgstr "Preparazione..."
@@ -142,6 +133,9 @@ msgstr "Selezionare il tipo desiderato:"
 msgid "Show longitude and latitude in the slideshow."
 msgstr "Mostra longitudine e latitudine nella presentazione."
 
+msgid "Show longitude and latitude:"
+msgstr "Mostrare longitudine e latitudine:"
+
 msgid ""
 "Show only the currently loaded images or all previously available images."
 msgstr ""
@@ -154,7 +148,7 @@ msgstr "Mostra l'ora locale (box time) nelle informazioni."
 msgid "Slideshow"
 msgstr "Proiezione"
 
-msgid "Slideshow begins from:"
+msgid "Slideshow starts from:"
 msgstr "Lo slideshow inizia da:"
 
 msgid "Slideshow's step:"
@@ -173,8 +167,8 @@ msgstr "Avviare la presentazione dall'inizio o dall'ultima posizione."
 msgid "Stop Show"
 msgstr "Stop"
 
-msgid "Stop slideshow, please!"
-msgstr "Arrestare la proiezione"
+msgid "Stop slideshow!"
+msgstr "Interrompi la presentazione!"
 
 msgid "The downloaded images are stored in this directory."
 msgstr "Le immagini scaricate vengono memorizzate in questa directory."
@@ -182,111 +176,102 @@ msgstr "Le immagini scaricate vengono memorizzate in questa directory."
 msgid "Type of meteo info on start:"
 msgstr "Tipo di informazioni meteo all'avvio:"
 
-msgid "UTC"
-msgstr "UTC"
-
-msgid "actual position"
-msgstr "Posizione attuale"
+msgid "Viewer of meteo pictures"
+msgstr "Visualizzatore di immagini meteo"
 
 msgid "all frames"
-msgstr "Tutti i frame"
+msgstr "tutti i frame"
 
 msgid "all types"
-msgstr "Tutti"
+msgstr "tutti i tipi"
 
 msgid "begin"
-msgstr "Inizio"
+msgstr "iniziare"
 
 msgid "current type"
-msgstr "Tipo corrente"
+msgstr "tipo attuale"
 
 msgid "delete current frame"
-msgstr "Rimuovere il frame corrente"
+msgstr "eliminare il fotogramma corrente"
 
 msgid "downloaded interval"
-msgstr "Intervallo considerato"
+msgstr "intervallo scaricato"
 
 msgid "exit plugin"
-msgstr "Uscire"
+msgstr "plugin di uscita"
 
 msgid "go to first downloaded frame"
-msgstr "Andare al primo frame scaricato"
+msgstr "passare al primo fotogramma scaricato"
 
 msgid "go to last downloaded frame"
-msgstr "Andare all'iltimo frame scaricato"
+msgstr "vai all'ultimo fotogramma scaricato"
 
 msgid "go to last frame"
-msgstr "Andare all'ultimo frame"
+msgstr "vai all'ultimo fotogramma"
 
 msgid "go to next frame"
-msgstr "Andare al frame successivo"
+msgstr "passa al fotogramma successivo"
 
 msgid "go to previous frame"
-msgstr "Andare al frame precedente"
+msgstr "passa al fotogramma precedente"
 
 msgid "info"
 msgstr "info"
 
 msgid "info and progress bar"
-msgstr "Info e barra di progressione"
+msgstr "info e barra di avanzamento"
+
+msgid "last position"
+msgstr "ultima posizione"
 
 msgid "menu"
-msgstr "Menu"
+msgstr "menu"
 
 msgid "meteoViewer Configuration"
-msgstr "Configurazione di meteoViewer"
+msgstr "configurazione di meteoViewer"
 
 msgid "no"
-msgstr "No"
+msgstr "no"
 
 msgid "none"
-msgstr "Nessuno"
+msgstr "nessuno"
 
 msgid "older than downloaded interval"
-msgstr "Più vecchi dell'intervallo considerato"
+msgstr "più vecchio dell'intervallo scaricato"
 
 msgid "older than max. interval"
-msgstr "Più vecchi dell'intervallo max"
+msgstr "più vecchio dell'intervallo massimo"
 
 msgid "options"
-msgstr "Opzioni"
+msgstr "opzioni"
 
 msgid "play slideshow"
 msgstr "riprodurre la presentazione"
 
 msgid "play/stop slideshow"
-msgstr "Proiezione: Play/Stop"
+msgstr "riproduzione/arresto della presentazione"
 
 msgid "progress bar"
-msgstr "Barra di progressione"
+msgstr "barra di avanzamento"
+
+msgid "refresh last frame"
+msgstr "aggiornare l'ultimo fotogramma"
 
 msgid "refresh..."
-msgstr "Aggiornamento..."
+msgstr "rinfrescare..."
 
 msgid "run/abort download"
-msgstr "Download: Avvio/Arresto"
+msgstr "eseguire/interrompere il download"
 
 msgid "stop slideshow/synaptic map"
-msgstr "Arrestare proiezione/Mappa sinottica"
+msgstr "interrompere la presentazione/mappa sinaptica"
 
 msgid "switch to next meteo type"
-msgstr "Passare al tipo successivo"
+msgstr "passare al tipo di meteo successivo"
 
 msgid "switch to previous meteo type"
-msgstr "Passare al tipo precedente"
+msgstr "passare al tipo di meteo precedente"
 
 #
 msgid "synaptic maps"
-msgstr "Mappa sinottica"
-
-msgid "Viewer of meteo pictures"
-msgstr "Visualizzatore di immagini meteo"
-
-#~ msgid "Location for MeteoViewer"
-#~ msgstr "Località per MeteoViewer"
-
-#~ msgid "MeteoViewer Setup"
-#~ msgstr "Impostazioni MeteoViewer"
-
-#~ msgid "Save"
-#~ msgstr "Salvare"
+msgstr "mappe sinaptiche"
