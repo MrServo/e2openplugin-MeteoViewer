@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: e 2openplugin-MeteoViewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 13:26+0100\n"
-"PO-Revision-Date: 2024-11-15 15:51+0100\n"
+"POT-Creation-Date: 2024-11-18 19:09+0100\n"
+"PO-Revision-Date: 2024-11-19 08:58+0100\n"
 "Last-Translator: Mr.Servo <mrservo via GitHub.com>\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -46,8 +46,8 @@ msgstr ""
 "Définit le type d'affichage et la portée des informations supplémentaires "
 "dans le diaporama."
 
-msgid "Defines the time delay for weatheronline."
-msgstr "Définit le délai d'attente pour weatheronline."
+msgid "Defines the time delay for the latest pictures of weatheronline."
+msgstr "Définit le délai d'affichage des dernières images de weatheronline."
 
 msgid "Defines which view is to be called up after downloading the images."
 msgstr "Définit la vue à appeler après le téléchargement des images."
@@ -81,11 +81,11 @@ msgstr "Affichage :"
 msgid "Download"
 msgstr "Télécharger"
 
-msgid "Download info on plugin's start:"
+msgid "Download info on plugin start:"
 msgstr "Informations sur le téléchargement au début du plugin:"
 
-msgid "Download pictures, please!"
-msgstr "Téléchargement des images, merci de patienter!"
+msgid "Download pictures!"
+msgstr "Téléchargez des photos!"
 
 msgid "Download:"
 msgstr "Téléchargement:"
@@ -102,14 +102,8 @@ msgstr "Informations sur les cadres:"
 msgid "Frequency of downloading."
 msgstr "Fréquence de téléchargement."
 
-msgid "LT"
-msgstr "LT"
-
 msgid "Local time in info:"
 msgstr "Heure locale en info :"
-
-msgid "MeteoViewer"
-msgstr "VisionneurMétéo"
 
 msgid "No files found!"
 msgstr "Aucun fichier trouvé!"
@@ -119,9 +113,6 @@ msgstr "A la sortie, supprimer les fichiers:"
 
 msgid "Options"
 msgstr "Options"
-
-msgid "Parallels and meridians:"
-msgstr "Parallèles et méridiens:"
 
 msgid "Prepare..."
 msgstr "Préparation..."
@@ -141,6 +132,9 @@ msgstr "Sélectionnez le type de météo voulu:"
 msgid "Show longitude and latitude in the slideshow."
 msgstr "Afficher la longitude et la latitude dans le diaporama."
 
+msgid "Show longitude and latitude:"
+msgstr "Afficher la longitude et la latitude :"
+
 msgid ""
 "Show only the currently loaded images or all previously available images."
 msgstr ""
@@ -153,8 +147,8 @@ msgstr "Afficher l'heure locale (heure de la boîte) dans les informations."
 msgid "Slideshow"
 msgstr "Diaporama"
 
-msgid "Slideshow begins from:"
-msgstr "Le diaporama commence à partir de:"
+msgid "Slideshow starts from:"
+msgstr "Le diaporama commence à partir de :"
 
 msgid "Slideshow's step:"
 msgstr "Étape du diaporama:"
@@ -172,8 +166,8 @@ msgstr "Démarrer le diaporama depuis le début ou depuis la dernière position.
 msgid "Stop Show"
 msgstr "Arrêter l'affichage"
 
-msgid "Stop slideshow, please!"
-msgstr "Merci d'arrêter le diaporama!"
+msgid "Stop slideshow!"
+msgstr "Arrêter le diaporama!"
 
 msgid "The downloaded images are stored in this directory."
 msgstr "Les images téléchargées sont stockées dans ce répertoire."
@@ -181,11 +175,8 @@ msgstr "Les images téléchargées sont stockées dans ce répertoire."
 msgid "Type of meteo info on start:"
 msgstr "Type d'informations météorologiques au départ:"
 
-msgid "UTC"
-msgstr "UTC"
-
-msgid "actual position"
-msgstr "position actuelle"
+msgid "Viewer of meteo pictures"
+msgstr "Visionneuse d'images météo"
 
 msgid "all frames"
 msgstr "toutes les trames"
@@ -229,6 +220,9 @@ msgstr "info"
 msgid "info and progress bar"
 msgstr "info et barre de progression"
 
+msgid "last position"
+msgstr "dernière position"
+
 msgid "menu"
 msgstr "menu"
 
@@ -259,6 +253,9 @@ msgstr "jouer/arrêter le diaporama"
 msgid "progress bar"
 msgstr "barre de progression"
 
+msgid "refresh last frame"
+msgstr "rafraîchir la dernière image"
+
 msgid "refresh..."
 msgstr "rafraîchir..."
 
@@ -277,8 +274,17 @@ msgstr "passer au type précédent de météo"
 msgid "synaptic maps"
 msgstr "cartes synaptiques"
 
-msgid "Viewer of meteo pictures"
-msgstr "Visionneuse d'images météo"
+#~ msgid "LT"
+#~ msgstr "LT"
+
+#~ msgid "MeteoViewer"
+#~ msgstr "VisionneurMétéo"
+
+#~ msgid "Parallels and meridians:"
+#~ msgstr "Parallèles et méridiens:"
+
+#~ msgid "UTC"
+#~ msgstr "UTC"
 
 #, python-format
 #~ msgid "!!! '%s' as 'All' cannot be used with '/tmp/' !!!"

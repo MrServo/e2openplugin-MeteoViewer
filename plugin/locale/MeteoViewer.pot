@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 13:26+0100\n"
+"POT-Creation-Date: 2024-11-18 19:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Mr.Servo <mrservo via GitHub.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgstr ""
 msgid "Defines the display type and scope of the additional information in the slideshow."
 msgstr ""
 
-msgid "Defines the time delay for weatheronline."
+msgid "Defines the time delay for the latest pictures of weatheronline."
 msgstr ""
 
 msgid "Defines which view is to be called up after downloading the images."
@@ -72,10 +72,10 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-msgid "Download info on plugin's start:"
+msgid "Download info on plugin start:"
 msgstr ""
 
-msgid "Download pictures, please!"
+msgid "Download pictures!"
 msgstr ""
 
 msgid "Download:"
@@ -93,13 +93,7 @@ msgstr ""
 msgid "Frequency of downloading."
 msgstr ""
 
-msgid "LT"
-msgstr ""
-
 msgid "Local time in info:"
-msgstr ""
-
-msgid "MeteoViewer"
 msgstr ""
 
 msgid "No files found!"
@@ -109,9 +103,6 @@ msgid "On exit delete files:"
 msgstr ""
 
 msgid "Options"
-msgstr ""
-
-msgid "Parallels and meridians:"
 msgstr ""
 
 msgid "Prepare..."
@@ -132,6 +123,9 @@ msgstr ""
 msgid "Show longitude and latitude in the slideshow."
 msgstr ""
 
+msgid "Show longitude and latitude:"
+msgstr ""
+
 msgid "Show only the currently loaded images or all previously available images."
 msgstr ""
 
@@ -141,7 +135,7 @@ msgstr ""
 msgid "Slideshow"
 msgstr ""
 
-msgid "Slideshow begins from:"
+msgid "Slideshow starts from:"
 msgstr ""
 
 msgid "Slideshow's step:"
@@ -159,7 +153,7 @@ msgstr ""
 msgid "Stop Show"
 msgstr ""
 
-msgid "Stop slideshow, please!"
+msgid "Stop slideshow!"
 msgstr ""
 
 msgid "The downloaded images are stored in this directory."
@@ -168,10 +162,7 @@ msgstr ""
 msgid "Type of meteo info on start:"
 msgstr ""
 
-msgid "UTC"
-msgstr ""
-
-msgid "actual position"
+msgid "Viewer of meteo pictures"
 msgstr ""
 
 msgid "all frames"
@@ -216,6 +207,9 @@ msgstr ""
 msgid "info and progress bar"
 msgstr ""
 
+msgid "last position"
+msgstr ""
+
 msgid "menu"
 msgstr ""
 
@@ -246,6 +240,9 @@ msgstr ""
 msgid "progress bar"
 msgstr ""
 
+msgid "refresh last frame"
+msgstr ""
+
 msgid "refresh..."
 msgstr ""
 
@@ -262,7 +259,4 @@ msgid "switch to previous meteo type"
 msgstr ""
 
 msgid "synaptic maps"
-msgstr ""
-
-msgid "Viewer of meteo pictures"
 msgstr ""
