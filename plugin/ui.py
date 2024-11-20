@@ -41,7 +41,7 @@ from . import _  # for localized messages
 VERSION = "v2.0"
 TMPDIR = "/tmp/"
 SUBDIR = "meteo"
-PPATH = resolveFilename(SCOPE_CURRENT_PLUGIN, "MeteoViewer/pictures/")
+PPATH = resolveFilename(SCOPE_CURRENT_PLUGIN, "Extensions/MeteoViewer/pictures/")
 E2PATH = resolveFilename(SCOPE_CONFIG)
 
 # LIST OF USED NAMES IN MENU,OPTIONS AS INFO ("All" must be at last)
@@ -389,7 +389,7 @@ class meteoViewer(Screen, HelpableScreen):
 
 	def waitingFiles(self):
 		if self.dlFrame:
-			print("[MeteoViewer] NR: %d" % self.dlFrame)
+			print(f"[MeteoViewer] no.: {self.dlFrame}")
 			self["download"].setValue(int(100.0 * (self.x - self.dlFrame) / self.x + 0.25))
 			self.Wait.start(100, True)
 		else:
@@ -794,7 +794,6 @@ class meteoViewer(Screen, HelpableScreen):
 				system(f"rm -r {TMPDIR}{SUBDIR} >/dev/null 2>&1")
 			else:
 				system(f"rm {self.getDir(TYPE.index(typ))}*.* >/dev/null 2>&1")
-
 		system(f"mkdir {TMPDIR}{SUBDIR} >/dev/null 2>&1")
 		if typ == "all":
 			for i in range(len(TYPE) - 1):
@@ -1044,6 +1043,7 @@ class meteoViewer(Screen, HelpableScreen):
 				self.deleteOldFiles(typ, gmtime(startDel))
 		for i in range(start, stop, step):
 			name = strftime("%Y%m%d%H%M", gmtime(i))  # utc
+			# example: url = 'https://www.weatheronline.co.uk/cgi-bin/getpicture?/daten/sat/im00/2024/11/20/1600.jpg'
 			if typ == "all":
 				for j in country:
 					url = f"https://www.weatheronline.co.uk/cgi-bin/getpicture?/daten/sat/{j}/{name[:-8]}/{name[4:-6]}/{name[6:-4]}/{name[8:]}.jpg"
