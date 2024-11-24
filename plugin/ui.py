@@ -166,30 +166,31 @@ class meteoViewer(Screen, HelpableScreen):
 		self["slide"] = ProgressBar()
 		self["slide"].hide()
 		self["actions"] = HelpableActionMap(self,
-									  		["WizardActions",
-									 		"DirectionActions",
-									 		"MenuActions",
-											"NumberActions",
-									 		"ColorActions",
-											"TvRadioActions"], {"ok": (self.lastFrame, _("go to last frame")),
-																"back": (self.end, _("exit plugin")),
-																"menu": (self.showMenu, _("menu")),
-																"left": (self.previousFrame, _("go to previous frame")),
-																"right": (self.nextFrame, _("go to next frame")),
-																"up": (self.increase_typ, _("switch to next meteo type")),
-																"down": (self.decrease_typ, _("switch to previous meteo type")),
-																"red": (self.end, _("exit plugin")),
-																"green": (self.slideButton, _("play/stop slideshow")),
-																"play": (self.runSlideShow, _("play slideshow")),
-																"yellow": (self.download_delayed, _("run/abort download")),
-																"blue": (self.callCfg, _("options")),
-																"stop": (self.stopSlideShow, _("stop slideshow/synaptic map")),
-																"keyTV": (self.displaySynaptic, _("synaptic maps")),
-																"previous": (self.firstFrame, _("go to first downloaded frame")),
-																"next": (self.lastFrame, _("go to last downloaded frame")),
-																"1": (self.refreshFrames, _("refresh last frame")),
-																"8": (self.deleteFrame, _("delete current frame"))
-																}, -2)
+						["WizardActions",
+						"DirectionActions",
+						"MenuActions",
+						"NumberActions",
+						"ColorActions",
+						"TvRadioActions"],
+					{"ok": (self.lastFrame, _("go to last frame")),
+					"back": (self.end, _("exit plugin")),
+					"menu": (self.showMenu, _("menu")),
+					"left": (self.previousFrame, _("go to previous frame")),
+					"right": (self.nextFrame, _("go to next frame")),
+					"up": (self.increase_typ, _("switch to next meteo type")),
+					"down": (self.decrease_typ, _("switch to previous meteo type")),
+					"red": (self.end, _("exit plugin")),
+					"green": (self.slideButton, _("play/stop slideshow")),
+					"play": (self.runSlideShow, _("play slideshow")),
+					"yellow": (self.download_delayed, _("run/abort download")),
+					"blue": (self.callCfg, _("options")),
+					"stop": (self.stopSlideShow, _("stop slideshow/synaptic map")),
+					"keyTV": (self.displaySynaptic, _("synaptic maps")),
+					"previous": (self.firstFrame, _("go to first downloaded frame")),
+					"next": (self.lastFrame, _("go to last downloaded frame")),
+					"1": (self.refreshFrames, _("refresh last frame")),
+					"8": (self.deleteFrame, _("delete current frame"))
+					}, -2)
 		self.picload = ePicLoad()
 		self.picload.PictureData.get().append(self.showPic)
 		self.borderLoad = ePicLoad()
@@ -823,14 +824,14 @@ class meteoViewer(Screen, HelpableScreen):
 	def downloadOnce(self, typ):  # only, when is choose "Download"
 		system(f"rm {TMPDIR}{SUBDIR}/*.* >/dev/null 2>&1")
 		pictures = {"evropa/analyza.gif": "01synoptic.gif",
-			 		"evropa/T2m_evropa.gif": "02T2m_evropa.gif",
+					"evropa/T2m_evropa.gif": "02T2m_evropa.gif",
 					"evropa/T2m_stredomori.gif": "03T2m_stredomori.gif",
-			 		"evropa/RH_stredomori.gif": "04RH_stredomori.gif",
-			 		"svet/T2m_svet.gif": "05T2m_svet.gif",
-			 		"svet/T2m_amerika.gif": "06T2m_amerika.gif",
-			 		"svet/T2m_jvazaust.gif": "07T2m_jvazaust.gif",
-			 		"svet/T2m_afrika.gif": "08T2m_afrika.gif"
-			 		}
+					"evropa/RH_stredomori.gif": "04RH_stredomori.gif",
+					"svet/T2m_svet.gif": "05T2m_svet.gif",
+					"svet/T2m_amerika.gif": "06T2m_amerika.gif",
+					"svet/T2m_jvazaust.gif": "07T2m_jvazaust.gif",
+					"svet/T2m_afrika.gif": "08T2m_afrika.gif"
+					}
 		for picture in pictures:
 			url = f"http://portal.chmi.cz/files/portal/docs/meteo/om/{picture}"
 			picfile = pictures.get(picture)
@@ -920,14 +921,14 @@ class meteoViewer(Screen, HelpableScreen):
 			frDate = strftime("%Y%m%d", gmtime(i))  # utc
 			frTime = strftime("%H%M", gmtime(i))  # utc
 			urls = {"ir": f"http://www.chmi.cz/files/portal/docs/meteo/sat/msg_hrit/img-msgce-ir/msgce.ir.{frDate}.{frTime}.0.jpg",
-		   			"vis": f"http://www.chmi.cz/files/portal/docs/meteo/sat/msg_hrit/img-msgcz-vis-ir/msgcz.vis-ir.{frDate}.{frTime}.0.jpg",
-		   			"bt": f"http://www.chmi.cz/files/portal/docs/meteo/sat/msg_hrit/img-msgcz-BT/msgcz.BT.{frDate}.{frTime}.0.jpg",
-		   			"24m": f"http://www.chmi.cz/files/portal/docs/meteo/sat/msg_hrit/img-msgcz-24M/msgcz.24M.{frDate}.{frTime}.0.jpg",
-		   			"dea": f"https://www.weatheronline.co.uk/daten/radar/dwddg/{frDate[:-4]}/{frDate[4:-2]}/{frDate[6:]}/{frTime}.gif",
-		   			"uka": f"https://www.weatheronline.co.uk/daten/radar/ukuk/{frDate[:-4]}/{frDate[4:-2]}/{frDate[6:]}/{frTime}.gif",
-		   			"nla": f"https://www.weatheronline.co.uk/daten/radar/ddlnw/{frDate[:-4]}/{frDate[4:-2]}/{frDate[6:]}/{frTime}.gif",
-		   			"csr": f"http://portal.chmi.cz/files/portal/docs/meteo/rad/data_tr_png_1km/pacz23.z_max3d.{frDate}.{frTime}.0.png"
-		   			}
+					"vis": f"http://www.chmi.cz/files/portal/docs/meteo/sat/msg_hrit/img-msgcz-vis-ir/msgcz.vis-ir.{frDate}.{frTime}.0.jpg",
+					"bt": f"http://www.chmi.cz/files/portal/docs/meteo/sat/msg_hrit/img-msgcz-BT/msgcz.BT.{frDate}.{frTime}.0.jpg",
+					"24m": f"http://www.chmi.cz/files/portal/docs/meteo/sat/msg_hrit/img-msgcz-24M/msgcz.24M.{frDate}.{frTime}.0.jpg",
+					"dea": f"https://www.weatheronline.co.uk/daten/radar/dwddg/{frDate[:-4]}/{frDate[4:-2]}/{frDate[6:]}/{frTime}.gif",
+					"uka": f"https://www.weatheronline.co.uk/daten/radar/ukuk/{frDate[:-4]}/{frDate[4:-2]}/{frDate[6:]}/{frTime}.gif",
+					"nla": f"https://www.weatheronline.co.uk/daten/radar/ddlnw/{frDate[:-4]}/{frDate[4:-2]}/{frDate[6:]}/{frTime}.gif",
+					"csr": f"http://portal.chmi.cz/files/portal/docs/meteo/rad/data_tr_png_1km/pacz23.z_max3d.{frDate}.{frTime}.0.png"
+					}
 			for urltype in urls:
 				if typ == urltype or typ == "all":
 					url = urls.get(urltype)
@@ -956,7 +957,7 @@ class meteoViewer(Screen, HelpableScreen):
 			frDate = strftime("%Y%m%d", gmtime(i))  # utc
 			frTime = strftime("%H%M", gmtime(i))  # utc
 			url = f"http://www.chmi.cz/files/portal/docs/meteo/blesk/data/pacz21.blesk.{frDate}.{frTime}.10_9.png"
-			path = f"{self.getDir(TYPE.index("storm"))}{frDate}{frTime}.png"
+			path = f"{self.getDir(TYPE.index('storm'))}{frDate}{frTime}.png"
 			if not self.downloadFrame(url, path):
 				break
 
@@ -983,7 +984,7 @@ class meteoViewer(Screen, HelpableScreen):
 			frTime = strftime("%H%M", gmtime(i))  # utc
 			if typ == "na" or typ == "all":
 				url = f"https://www.ssec.wisc.edu/data/us_comp/image{j}.jpg"
-				path = f"{self.getDir(TYPE.index("na"))}{frDate}{frTime}.jpg"
+				path = f"{self.getDir(TYPE.index('na'))}{frDate}{frTime}.jpg"
 				if not self.downloadFrame(url, path):
 					break
 				j += 1
