@@ -518,7 +518,7 @@ class meteoViewer(Screen, HelpableScreen):
 				self["slide"].show()
 
 	def setExtension(self):
-		if TYPE[self.typ] in ("nla", "uka", "nla1", "ausv"):
+		if TYPE[self.typ] in ("nla", "uka", "dea", "nla1", "ausv"):
 			self.EXT = ".gif"
 		elif TYPE[self.typ] in ("storm", "csr"):
 			self.EXT = ".png"
@@ -926,14 +926,15 @@ class meteoViewer(Screen, HelpableScreen):
 					"24m": f"http://www.chmi.cz/files/portal/docs/meteo/sat/msg_hrit/img-msgcz-24M/msgcz.24M.{frDate}.{frTime}.0.jpg",
 					"dea": f"https://www.weatheronline.co.uk/daten/radar/dwddg/{frDate[:-4]}/{frDate[4:-2]}/{frDate[6:]}/{frTime}.gif",
 					"uka": f"https://www.weatheronline.co.uk/daten/radar/ukuk/{frDate[:-4]}/{frDate[4:-2]}/{frDate[6:]}/{frTime}.gif",
-					"nla": f"https://www.weatheronline.co.uk/daten/radar/ddlnw/{frDate[:-4]}/{frDate[4:-2]}/{frDate[6:]}/{frTime}.gif",
+					"nla1": f"https://www.weatheronline.co.uk/daten/radar/ddlnw/{frDate[:-4]}/{frDate[4:-2]}/{frDate[6:]}/{frTime}.gif",
 					"csr": f"http://portal.chmi.cz/files/portal/docs/meteo/rad/data_tr_png_1km/pacz23.z_max3d.{frDate}.{frTime}.0.png"
 					}
 			for urltype in urls:
 				if typ == urltype or typ == "all":
 					url = urls.get(urltype)
 					if urltype:
-						path = f"{self.getDir(TYPE.index(urltype))}{frDate}{frTime}.jpg"
+						ext = url[-3:]
+						path = f"{self.getDir(TYPE.index(urltype))}{frDate}{frTime}.{ext}"
 						if not self.downloadFrame(url, path):
 							break
 
